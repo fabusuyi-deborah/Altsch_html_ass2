@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+
+<style>
+  body{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+a{
+  
+  text-decoration: none;
+  color: black;
+}
+
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="table.html">Table</a>
+    <a href="media.html">Media</a>
+  </nav>
+
+  <div class="hero-section">
+    <h1>Welcome to my World</h1>
+    <p>Here you will find all the information you need to know about me</p>
+
+    <div class="media-section">
+<picture>
+  <source srcset="assests/IMG-20230927-WA0044.jpg" media="(min-width: 1024px)">
+  <source srcset="assests/IMG-20230927-WA0044.jpg" media="(min-width: 768px)">
+  <source srcset="assests/IMG-20230927-WA0044.jpg" media="(min-width: 320px)">
+  <img src="assests/IMG-20230927-WA0044.jpg" alt="Hero Image">
+</picture>
+
+<section>
+  <h2>My Introduction Video</h2>
+  <video controls poster="/api/placeholder/640/360">
+      <source src="video.mp4" type="video/mp4">
+      <source src="video.webm" type="video/webm">
+      Your browser doesn't support video playback.
+  </video>
+</section>
+
+<section>
+  <h2>Listen to My Podcast</h2>
+  <audio controls>
+      <source src="audio.mp3" type="audio/mpeg">
+      <source src="audio.ogg" type="audio/ogg">
+      Your browser doesn't support audio playback.
+  </audio>
+</section>
+
+    </div>
+  </div>
+</body>
+</html>
